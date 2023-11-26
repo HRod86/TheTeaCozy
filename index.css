@@ -68,7 +68,7 @@ a {
 }
 
 .mission-background {
-    background-image: url("resources/img-mission-background.jpg");
+    background-image: url(resources/img-mission-background.jpg);
     background-size: cover;
     display: flex;
     position: relative;
