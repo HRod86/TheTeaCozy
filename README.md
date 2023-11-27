@@ -1,9 +1,8 @@
 # The Tea Cozy
-en: Codeacademy Project: The Tea Cozy Website (Build a Website from a given template image - HTML &amp; CSS only)
-
+en: Codeacademy Project: The Tea Cozy Website (Build a Website from a given template image - HTML &amp; CSS only)       
 pt: Projeto da Codacademy: O Website Tea Cozy (Construa um Website a partir de uma imagem template - Somente HTML e CSS)
 
-en: template image for comparison;
+en: template image for comparison;                                                     
 
 pt: Imagem de template para comparação;
 
