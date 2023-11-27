@@ -5,6 +5,7 @@ pt: Projeto da Codacademy: O Website Tea Cozy (Construa um Website a partir de u
 en: template image for comparison;                                          
 pt: Imagem de template para comparação;                               
 
-link github page (live): https://hrod86.github.io/TheTeaCozy/  
+link github page (live): https://hrod86.github.io/TheTeaCozy/                                     
+
 
 ![desing-spec_tea_cozy](https://github.com/HRod86/TheTeaCozy/assets/119082360/718801d4-acc4-4986-8a2f-670f422bf56e)
