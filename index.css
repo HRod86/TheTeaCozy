@@ -110,7 +110,7 @@ h4 {
     align-items: center;
     justify-self: center;
     width: 1200px;
-    margin: 0 105px;
+    margin: 0 100px;
 }
 
 .tea-info-text {
@@ -121,8 +121,7 @@ h4 {
 }
 
 .tea-images {
-    margin-top: 10px;
-    margin-left: -25px;
+    margin: 0 200px;
     width: 1000px;
     display: inline-flex;
     flex-wrap: wrap;
