@@ -9,7 +9,7 @@
 body {
     background-color: black;
     opacity: 0.9;
-    width: 100%;
+    width: 1400px;
     left: 0;
     right: 0;
     text-align: center;
@@ -73,7 +73,7 @@ a {
     display: flex;
     position: relative;
     top: 70px;
-    margin: 5px 105px;
+    margin: 5px 100px;
     width: 1200px;
     height: 700px;
     align-items: center;
@@ -88,28 +88,40 @@ a {
 
 h2 {
     margin-top: 15px;
-    margin-bottom: 15px;
     font-size: 28px;
     font-family: Helvetica;
     color: seashell;
 }
 
 h4 {
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 24px;
     font-family: Helvetica;
     color: seashell;
 }
 
 .tea-info {
+    display: flex;
     font-family: Helvetica;
     color: seashell;
     position: relative;
+    align-items: center;
+    justify-self: center;
+    width: 1200px;
+    margin: 0 105px;
+}
+
+.tea-info-text {
+    background-color: black;
+    width: 100%;
     text-align: center;
+    opacity: 0.8;
 }
 
 .tea-images {
     margin-top: 10px;
+    margin-left: -25px;
     width: 1000px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -145,7 +157,7 @@ figcaption {
     background-repeat: no-repeat;
     width: 1200px;
     height: 500px;
-    margin: 62px auto;
+    margin: 62px 100px;
     margin-bottom: 0;
     justify-content: center;
     align-items: center;
@@ -166,6 +178,7 @@ figcaption {
     opacity: 0.8;
     height: 300px;
     width: 300px;
+    margint-top: 15px;
     margin-right: 40px;
     justify-content: center;
     align-items: center;
