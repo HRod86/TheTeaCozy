@@ -1,6 +1,6 @@
 # (Case Study) The Tea Cozy
-en: Codeacademy Project: The Tea Cozy Website (Build a Website from a given template image - HTML &amp; CSS only)       
-pt: Projeto da Codacademy: O Website Tea Cozy (Construa um Website a partir de uma imagem template - Somente HTML e CSS)
+en: Codeacademy Project: The Tea Cozy Webpage (Build a ebpage from a given template image - HTML &amp; CSS only)       
+pt: Projeto da Codacademy: A Webpage Tea Cozy (Construa uma página da web a partir de uma imagem template - Somente HTML e CSS)
 
 en: This version of The Tea Cozy project was developed focused in RWD (Responsive Web Design), using basic knowledge of media queries (CSS).      
 pt: Esta versão do peojeto The Tea Cozy foi desenvolvida com foco em RWD (Responsive Web Design), usando conhecimentos básicos de media queries (CSS). 
