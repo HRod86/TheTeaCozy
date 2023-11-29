@@ -202,11 +202,11 @@ figcaption {
         margin: 2.813rem 0.625rem;
         height: 8rem;
         width: 12rem;
-        right: 0px;
-
+        right: 0;
     }
 
     .loc-h3 {
+        margin-top: 2.813rem;
         font-size: 1.1rem;
     }
 
@@ -215,7 +215,6 @@ figcaption {
     }
 
 }
-
 
 /* Heading Styles for Locations */
 h3 {
