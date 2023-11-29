@@ -4,127 +4,115 @@
 <head>
     <!-- Metadata for character set and viewport -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Link to the external stylesheet -->
-    <link rel="stylesheet" href="index.css">
+    <link href="index.css" rel="stylesheet">
 
-    <!-- Link to display BigH as Tab Icon -->
-    <link rel="icon" href="https://github.com/HRod86/TheTeaCozy/blob/be4f9d35a8b6a9614d29a19d31738972cc2e0217/resources/bigh2.png">
-    
-    <!-- Page title -->
-    <title>Tea Cozy</title>
+    <!-- Title of the web page -->
+    <title>The Tea Cozy</title>
 </head>
 
 <body>
-    <!-- Header section containing the logo and navigation -->
-    <header class="header">
-        <div class="logo-container">
-            <!-- Logo image with link to main section-->
-            <a href="#"><img class="logo-image" src="resources/img-tea-cozy-logo.png" alt="logo-tea-cozy"></a>
-        </div>
-        <div class="navigation-container">
-            <!-- Navigation links -->
-            <ul class="nav-list">
-                <li><a href="#">Mission</a></li>
-                <li><a href="#featured-tea-target">Featured Tea</a></li>
-                <li><a href="#location">Locations</a></li>
+    <!-- Header section containing logo and navigation bar -->
+    <header>
+        <img id="logo-image" src="resources/img-tea-cozy-logo.png" alt="logo-tea-cozy">
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#mission-statement">Mission</a></li>
+                <li><a href="#tea-of-the-month">Featured Tea</a></li>
+                <li><a href="#store-locations">Locations</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
-    <!-- Mission section with a background image and mission statement -->
-    <section class="mission-section">
-        <div class="mission-background">
-            <div class="mission-content">
-                <!-- Mission heading and statement -->
-                <h2>Our Mission</h2>
-                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-            </div>
+    <!-- Mission Statement Section -->
+    <div id="mission-statement">
+        <div class="text-over">
+            <h2>Our Mission</h2>
+            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
         </div>
-        <!-- Anchor tag for the "Tea of the Month" link -->
-        <a href="#featured-tea-target" id="featured-tea-target"></a>
-    </section>
+    </div>
 
-    <!-- Tea container section with tea information -->
-    <section class="tea-section">
-        <div class="tea-info">
-            <div class="tea-info-text">
-                <!-- Heading and subheading for the Tea of the Month -->
-                <h2>Tea of the Month</h2>
-                <h4>What's Steeping at The Tea Cozy?</h4>
-            </div>
-        </div>
+    <!-- Tea of the Month Section -->
+    <div id="tea-of-the-month">
+        <h2>Tea of the Month</h2>
+        <h4>What's steeping at the Tea Cozy?</h4>
+
+        <!-- Tea Images and Captions -->
         <div class="tea-images">
-            <!-- Tea items with images and captions -->
-            <div class="tea-item">
-                <img class="tea-image" src="resources/img-berryblitz.jpg" alt="berryblitz">
-                <figcaption>Fall Berry Blitz Tea</figcaption>
-            </div>
-            <div class="tea-item">
-                <img class="tea-image" src="resources/img-spiced-rum.jpg" alt="spiced rum tea">
-                <figcaption>Spiced Rum Tea</figcaption>
-            </div>
-            <div class="tea-item">
-                <img class="tea-image" src="resources/img-donut.jpg" alt="donut">
-                <figcaption>Seasonal Donuts</figcaption>
-            </div>
-            <div class="tea-item">
-                <img class="tea-image" src="resources/img-myrtle-ave.jpg" alt="Myrtle Tea">
-                <figcaption>Myrtle Ave Tea</figcaption>
-            </div>
-            <div class="tea-item">
-                <img class="tea-image" src="resources/img-bedford-bizarre.jpg" alt="bedford">
-                <figcaption>Bedford Bizarre Tea</figcaption>
-            </div>
+            <img src="resources/img-berryblitz.jpg" alt="Fall Berry Blitz Tea">
+            <figcaption>Fall Berry Blitz Tea</figcaption>
         </div>
-    </section>
 
-    <!-- Anchor tag for the "Location" link -->
-    <a href="location" id="location"></a>
-
-    <!-- Location section with addresses and background image -->
-    <section class="location-section">
-        <div class="location-background">
-            <div class="loc-heading">
-                <!-- Heading for the Locations section -->
-                <h2>LOCATIONS</h2>
-            </div>
-            <!-- Location items with addresses -->
-            <div class="location-item">
-                <h3>DOWNTOWN</h3>
-                <p>384 West 4th St<br>Suite 108<br>Portland, Maine</p>
-            </div>
-            <div class="location-item">
-                <h3>East Bayside</h3>
-                <p>3433 Phisherman's Avenue</p>
-                <p>(Northwest Corner)</p>
-                <p>Portland, Maine</p>
-            </div>
-            <div class="location-item">
-                <h3>Oakdale</h3>
-                <p>515 Crescent Avenue</p>
-                <p>Second floor</p>
-                <p>Portland, Maine</p>
-            </div>
+        <div class="tea-images">
+            <img src="resources/img-spiced-rum.jpg" alt="Spiced Rum Tea">
+            <figcaption>Spiced Rum Tea</figcaption>
         </div>
-    </section>
 
-    <!-- Contact section -->
-    <section class="contact-section">
-        <div class="contact-container">
-            <h2>The Tea Cozy</h2>
-            <h5 class="contact-details">contact@theteacozy.com</h5>
-            <h5 class="contact-details">917-555-8904</h5>
+        <div class="tea-images">
+            <img src="resources/img-donut.jpg" alt="Donut">
+            <figcaption>Seasonal Donuts</figcaption>
         </div>
-    </section>
 
-    <!-- Footer section -->
+        <div class="tea-images">
+            <img src="resources/img-myrtle-ave.jpg" alt="Myrtle Tea">
+            <figcaption>Myrtle Ave Tea</figcaption>
+        </div>
+
+        <div class="tea-images">
+            <img src="resources/img-bedford-bizarre.jpg" alt="Bedford Tea">
+            <figcaption>Bedford Bizarre</figcaption>
+        </div>
+    </div>
+
+    <!-- Store Locations Section -->
+    <div id="store-locations">
+        <h2>Locations</h2>
+
+        <!-- Location Container -->
+        <div id="location-container">
+
+            <!-- Individual Store Locations -->
+            <div class="location">
+                <h3 class="loc-h3">Downtown</h3>
+                <p class="loc-p">384 West 4th St</p>
+                <p class="loc-p">Suite 108</p>
+                <p class="loc-p">Portland, Maine</p>
+            </div>
+
+            <div class="location">
+                <h3 class="loc-h3">East Bayside</h3>
+                <p class="loc-p">3433 Phisherman's Avenue</p>
+                <p class="loc-p">(Northwest Corner)</p>
+                <p class="loc-p">Portland, Maine</p>
+            </div>
+
+            <div class="location">
+                <h3 class="loc-h3">Oakdale</h3>
+                <p class="loc-p">515 Crescent Avenue</p>
+                <p class="loc-p">Second floor</p>
+                <p class="loc-p">Portland, Maine</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Contact Information Section -->
+    <div id="contact-info">
+        <h3>The Tea Cozy</h3>
+        <p>contact@theteacozy.com</p>
+        <p>917-555-8904</p>
+    </div>
+
+    <!-- Footer Section -->
     <footer>
-        <div class="footer">
-            <h5>copyright The Tea Cozy 2023</h5>
-        </div>
+        <p>© copyright The Tea Cozy 2023</p>
     </footer>
+
 </body>
 
 </html>
