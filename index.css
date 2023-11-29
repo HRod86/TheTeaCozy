@@ -15,7 +15,7 @@ header {
     display: flex;
     position: fixed;
     width: 100%;
-    border: 1px solid seashell;
+    border-bottom: 1px solid seashell;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
