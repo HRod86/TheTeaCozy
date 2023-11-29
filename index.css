@@ -35,7 +35,7 @@ header {
 #nav-bar li {
     list-style: none;
     margin-right: 0.625rem;
-    padding: 0px 15px;
+    padding: 0px 0.938rem;
     display: inline-block;
     justify-content: flex-end;
     overflow: hidden;
@@ -88,7 +88,7 @@ header {
     margin: auto;
     background-color: black;
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 1.25rem;
     opacity: 0.8;
 }
 
@@ -146,20 +146,20 @@ figcaption {
     top: 5rem;
     width: 80%;
     height: 31.25rem;
-    padding: 0 10px;
+    padding: 0 0.625rem;
 }
 
 /* Responsive Width for Small Screens */
 @media only screen and (max-width: 474px) {
     #store-locations {
-        width: 384px;
+        width: 24rem;
     }
 
 }
 
 /* Heading Styles for Store Locations */
 #store-locations h2 {
-    padding-top: 70px;
+    padding-top: 4.375rem;
 }
 
 /* Location Container Styles */
@@ -178,10 +178,10 @@ figcaption {
     height: 18.75rem;
     width: 18.75rem;
     position: relative;
-    margin: 0 20px;
+    margin: 0 1.25rempx;
     display: inline-block;
     align-items: center;
-    padding: 10px;
+    padding: 0.625rem;
     overflow: hidden;
 }
 
@@ -199,7 +199,7 @@ figcaption {
 /* Responsive Styles for Small Screens */
 @media only screen and (max-width: 780px) {
     .location {
-        margin: 45px 10px;
+        margin: 2.813rem 0.625rem;
         height: 8rem;
         width: 12rem;
         right: 0px;
@@ -226,16 +226,16 @@ h3 {
 
 #contact-info {
     position: relative;
-    top: 45px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    top: 2.813rem;
+    padding-top: 1.875rem;
+    padding-bottom: 0.625rem;
 }
 
 /* Responsive Styles for Small Screens */
 @media only screen and (max-width: 474px) {
     #contact-info {
-        width: 384px;
-        left: 20px;
+        width: 24rem;
+        left: 1.25rem;
     }
 }
 
@@ -248,9 +248,9 @@ footer {
 /* Responsive Styles for Small Screens */
 @media only screen and (max-width: 474px) {
     footer {
-        width: 384px;
+        width: 24rem;
         text-align: center;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-left: 1.25rem;
+        margin-top: 1.25rem;
     }
 }
